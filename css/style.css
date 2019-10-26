@@ -76,7 +76,7 @@ body{
 .form-container
 {
    position: absolute;
-   top:70%;
+   top:450px;
     border-radius: 6px;
   background-color: #fafafa;
   max-width: 970px;
