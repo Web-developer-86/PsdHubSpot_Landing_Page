@@ -546,5 +546,8 @@ width: 100%;
 {
   font-size: 20px;
 }
-    .header-content p {line-height:normal;}
+    .header-content p 
+{
+  line-height: normal; 
+}
 }
