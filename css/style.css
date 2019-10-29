@@ -12,7 +12,7 @@ body{
 }
 .wrapper
 {
-    max-width: calc(1300px - 270px);
+    max-width: calc(1440px - 270px);
     margin: 0 auto; 
 }
 .header-section{
@@ -546,4 +546,5 @@ width: 100%;
 {
   font-size: 20px;
 }
+    .header-content p {line-height:normal;}
 }
