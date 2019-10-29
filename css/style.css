@@ -12,7 +12,7 @@ body{
 }
 .wrapper
 {
-    max-width: calc(1440px - 270px);
+    max-width: calc(1300px - 270px);
     margin: 0 auto; 
 }
 .header-section{
@@ -238,7 +238,6 @@ body{
     padding-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: space-between;
     align-items: flex-start;
     justify-items: center;
     grid-column-gap:100px;
@@ -274,10 +273,10 @@ body{
 .we-are-hire
 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 25% 40% 25%;
     grid-column-gap: 50px;
     justify-content: space-between;
-    justify-items: center;
+    justify-items: flex-start;
     padding: 100px 0;
 }
 .we-are-hire h4 
@@ -456,6 +455,7 @@ width: 100%;
     grid-row-gap:40px;
     padding-right: 0;
     padding-left: 0;
+    transition: 700ms ease;
   }
   .header-container
   {
@@ -475,7 +475,9 @@ width: 100%;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap:50px;
     justify-items: self-start;
+    transition: 700ms ease;
   }
+  .we-are-hire h4{max-width: 370px;}
 }
 
 @media screen and (max-width:767px) and (min-width:320px)
@@ -498,23 +500,27 @@ width: 100%;
     padding-left: 0;
     padding-right: 0;
     grid-row-gap: 30px;
+    transition: 700ms ease;
   }
   .we-are-team
   {
     padding:50px 0;
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 50px;
+    transition: 700ms ease;
   }
   .we-are-hire 
   {
     padding:50px 0;
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 50px;
+    justify-items: center;
   }
-  .we-are-hire h4 
+  .we-are-hire h4, .we-are-hire p 
   {
-    max-width: 450px;
+    max-width: 570px;
   }
+  .we-are-hire hr {width: 30%;}
   .for-more-i-b  button 
   {
     margin-left: 0;
